@@ -37,7 +37,11 @@ nav ul li:hover{
 }
 .header-btn:hover{
     color: #fff;
-}
+} 
+/* Banner */
+
+
+
 footer{
     max-width: 1250px;
     margin: auto;
@@ -79,4 +83,57 @@ footer{
     font-weight: 700;
     line-height: 30px; /* 166.667% */
     border: none;
+}
+.coloumn1 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8F8F8F;
+    margin-top: 5px;
+}
+.coloumn2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+.coloumn2-a ul li {
+    color: #8F8F8F;
+    list-style: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 15px;
+    line-height: 30px; /* 150% */
+}
+.coloumn2-b ul li {
+    color: #8F8F8F;
+    list-style: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 15px;
+    line-height: 30px; /* 150% */
+}
+.line {
+    max-width: 1250px;
+    margin: auto;
+    padding: 10px;
+    height: 2px;
+    opacity: 0.5;
+}
+.copyright {
+    max-width: 1250px;
+    margin: auto;
+    padding: 10px;
+}
+.copyright p {
+    color: #8F8F8F;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
 }
