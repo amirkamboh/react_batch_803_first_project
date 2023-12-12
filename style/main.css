@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
+
+/* Start Header CSS */
+
 header{
     max-width: 1250px;
     margin: auto;
@@ -38,9 +41,110 @@ nav ul li:hover{
 .header-btn:hover{
     color: #fff;
 } 
-/* Banner */
 
+/* End Header CSS */
 
+/* Start Banner CSS */
+.baaner_secetion {
+    padding: 50px 0px;
+    background: url("../assets/Images/moon_right.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.page_witdh {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+}
+.banner_inner_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.banner_inner_section .img_banner {
+    padding: 0px;
+}
+.banner_inner_section .img_banner img {
+    border-radius: 50%;
+}
+.banner_inner_section .content_banner {
+    margin-top: 130px;
+}
+.banner_inner_section .content_banner small {
+    border-radius: 20px;
+    padding: 5px 10px;
+    background: #058B8C;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px; /* 0% */
+}
+.banner_inner_section .content_banner .intr {
+     margin-top: 10px; 
+     color: #1E1E1E;
+     font-family: Rubik;
+     font-size: 60px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     letter-spacing: -1.8px;
+}
+.banner_inner_section .content_banner h2 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.6px;
+}
+.banner_inner_section .content_banner h2 span {
+    color: #058B8C;
+}
+.banner_inner_section .content_banner .des {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 166.667% */
+} 
+.banner_button {
+    margin-top: 10px;
+}
+.banner_button .btn1{
+    border-radius: 35px;
+    padding: 10px 20px;
+    background: #8D0F11;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+}
+.banner_button .btn2 {
+    border-radius: 35px;
+    padding: 10px 20px;
+    border: 2px solid #1E1E1E;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 13px; 
+}
+/* Start Footer CSS */
 
 footer{
     max-width: 1250px;
@@ -116,12 +220,11 @@ footer{
     padding: 15px;
     line-height: 30px; /* 150% */
 }
+
 .line {
     max-width: 1250px;
     margin: auto;
     padding: 10px;
-    height: 2px;
-    opacity: 0.5;
 }
 .copyright {
     max-width: 1250px;
@@ -137,3 +240,5 @@ footer{
     font-weight: 400;
     line-height: 30px; /* 150% */
 }
+
+/* End Footer CSS */
