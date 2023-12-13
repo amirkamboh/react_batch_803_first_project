@@ -331,9 +331,65 @@ nav ul li:hover{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 18.85%, #FFF 40%);
 }
 
-/* Start Banner Middle CSS */
+/* End Banner Middle CSS */
 
 /* Start Banner Middle_2 CSS */
+.banner_secetion_middle_2 {
+    margin-top: 20px;
+}
+.page_witdh_middle_2{
+    max-width: 1250px;
+    margin: auto;
+    padding: 10px 70px;
+}
+.banner_inner_secetion_middle_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section_middle_imge {
+    margin-top: 20px;
+}
+.section_middle_imge img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+.section_middle_content {
+    margin-top: 80px;
+}
+.section_middle_content .heading_w {
+    color: #1E1E1E;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+.section_middle_content .heading_w span {
+    color: #058B8C;
+    font-family: Rubik;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+.section_middle_content .pare1 {
+    margin-top: 10px;
+    color: #1E1E1E;;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 194.444% */
+}
+.section_middle_content .pare2 {
+    margin-top: 10px;
+    color: #1E1E1E;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 194.444% */
+}
 
 /* Start Footer CSS */
 footer{
