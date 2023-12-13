@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
+body {
+    background: #F9F9F9;
+}
 
 /* Start Header CSS */
 
@@ -144,8 +147,195 @@ nav ul li:hover{
     text-transform: uppercase;
     margin-left: 13px; 
 }
-/* Start Footer CSS */
 
+/* Start Banner Upper CSS */
+.banner_secetion_upper {
+    padding: 5px 0px;
+}
+.page_witdh_upper {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 80px;
+}
+.banner_inner_section_upper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+.banner_inner_section_upper .image_fix {
+    border-radius: 60px;
+    background: #F8F8F8;
+    padding: 30px;
+    width: 117px;
+    height: 115px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.08);
+}
+.banner_inner_section_upper .image_fix img {
+    width: 60px;
+    height: 60px;
+}
+.banner_inner_section_upper .content_fix {
+    color: #1E1E1E;
+    font-family: Rubik;
+    margin-top: 20px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 142.857% */
+}
+
+/* Start Banner Middle CSS */
+.banner_secetion_middle {
+    padding: 10px 0px;
+    margin-top: 30px;
+}
+.page_witdh_middle {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+}
+.content_explore {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+.content_explore span {
+    color: #058B8C;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+.banner_secetion_middle_cards {
+    padding: 10px 0px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px;
+}
+.banner_secetion_middle_cards .card1 {
+    width: 210px;
+    height: 240px;
+    background: url("../assets/Images/service_img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.banner_secetion_middle_cards .card1 p {
+    text-align: center;
+    margin-top: 170px;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px; /* 125% */
+    border-radius: 0px 0px 10px 10px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 18.85%, #FFF 40%);
+}
+.banner_secetion_middle_cards .card2 {
+    width: 210px;
+    height: 250px;
+    background: url("../assets/Images/Cleaning.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.banner_secetion_middle_cards .card2 p {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 125% */
+    margin-top: 80px;
+}
+.button_card {
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.button_card .card_btn {
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 13px; 
+}
+.banner_secetion_middle_cards .card3 {
+    width: 210px;
+    height: 240px;
+    background: url("../assets/Images/handyman.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.banner_secetion_middle_cards .card3 p {
+    text-align: center;
+    margin-top: 170px;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px; /* 125% */
+    border-radius: 0px 0px 10px 10px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 18.85%, #FFF 40%);
+}
+.banner_secetion_middle_cards .card4 {
+    width: 210px;
+    height: 240px;
+    background: url("../assets/Images/Pluming.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.banner_secetion_middle_cards .card4 p {
+    text-align: center;
+    margin-top: 170px;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px; /* 125% */
+    border-radius: 0px 0px 10px 10px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 18.85%, #FFF 40%);
+}
+.banner_secetion_middle_cards .card5 {
+    width: 210px;
+    height: 240px;
+    background: url("../assets/Images/Electrication.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.banner_secetion_middle_cards .card5 p {
+    text-align: center;
+    margin-top: 170px;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px; /* 125% */
+    border-radius: 0px 0px 10px 10px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 18.85%, #FFF 40%);
+}
+
+/* Start Banner Middle CSS */
+
+/* Start Banner Middle_2 CSS */
+
+/* Start Footer CSS */
 footer{
     max-width: 1250px;
     margin: auto;
