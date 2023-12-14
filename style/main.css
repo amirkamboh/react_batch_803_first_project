@@ -391,6 +391,58 @@ nav ul li:hover{
     line-height: 16px; /* 194.444% */
 }
 
+/* Start Banner Middle 3 CSS */
+.banner_secetion_middle_3 {
+    padding: 10px 0px;
+    background: #058B8C;
+    margin-top: 20px;
+}
+.page_witdh_middle_3 {
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px 0px;
+}
+.banner_inner_secetion_middle_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.banner_inner_secetion_middle_3_content .middle3_heading {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    margin-top: 50px;
+    padding: 0px 10px;
+}
+.banner_inner_secetion_middle_3_content .middle3_para {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 194.444% */
+    padding: 10px 150px 10px 10px;
+}
+.banner_inner_secetion_middle_3_image {
+     width: 360px;
+     height: 360px;
+     background-color: red;
+     background: url("../assets/Images/middle3.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 50%;
+}
+.middle3_image_inner {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #C4C4C4;
+    opacity: 0.1;
+    margin-top: 70px;
+    margin-left: 135px;
+}
 /* Start Footer CSS */
 footer{
     max-width: 1250px;
