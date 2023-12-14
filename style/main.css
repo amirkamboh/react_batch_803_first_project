@@ -443,6 +443,261 @@ nav ul li:hover{
     margin-top: 70px;
     margin-left: 135px;
 }
+
+/* Start Banner Middle Lower CSS */
+.banner_middle_lower{
+    margin-top: 0px;
+}
+.page_witdh_middle_lower {
+    max-width: 1250px;
+    margin: auto;
+}
+.banner_middle_lower_content {
+    padding: 0px;
+}
+.banner_middle_lower_content .heading_client {
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    margin-top: 60px;
+}
+.banner_middle_lower_content .heading_client span {
+    color: #058B8C;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+.banner_middle_lower_content .paragraph {
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 166.667% */
+    margin-top: 15px;
+}
+.banner_middle_lower_card {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 10px;
+    margin-top: 15px;
+}
+.banner_middle_lower_card .cards1 {
+    width: 400px;
+    height: 230px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.10);
+    margin-top: 10px;
+}
+.banner_middle_lower_card .cards1 .cards1_inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid: 40px;
+}
+.banner_middle_lower_card .cards1 .cards1_image {
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: red;
+    background: url("../assets/Images/Cards/Alena.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.banner_middle_lower_card .cards1 .cards1_name {
+    color: #1E1E1E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10px; /* 136.364% */
+    margin: 40px 0px 0px -60px;
+}
+.banner_middle_lower_card .cards1 .cards1_name .card1_time{
+    margin-top: 15px;
+    color: #1E1E1E;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 225% */
+}
+.banner_middle_lower_card .cards1 .cards1_name .card1_time span {
+    color: orange;
+}
+.banner_middle_lower_card .cards1 .cards1_name .card1_time .tt {
+    margin-left: 30px;
+}
+.banner_middle_lower_card .cards1 .cards1_bio {
+    color: #1E1E1E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 166.667% */
+    padding: 10px 20px 20px 20px;
+}
+
+.banner_middle_lower_card .cards1 .cards2_image {
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: red;
+    background: url("../assets/Images/Cards/Alena2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.banner_middle_lower_card .cards1 .cards3_image {
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: red;
+    background: url("../assets/Images/Cards/Alena3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.banner_middle_lower_card .cards1 .cards4_image {
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: red;
+    background: url("../assets/Images/Cards/Kane.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.banner_middle_lower_card .cards1 .cards4_name {
+    color: #1E1E1E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10px; /* 136.364% */
+    margin: 40px 0px 0px -60px;
+}
+.banner_middle_lower_card .cards1 .cards4_name .card4_time{
+    margin-top: 15px;
+    color: #1E1E1E;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 225% */
+}
+.banner_middle_lower_card .cards1 .cards4_name .card4_time span {
+    color: orange;
+}
+.banner_middle_lower_card .cards1 .cards4_name .card4_time .tt {
+    margin-left: 30px;
+}
+.banner_middle_lower_card .cards1 .cards5_image {
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: red;
+    background: url("../assets/Images/Cards/Lungi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.banner_middle_lower_card .cards1 .cards5_name {
+    color: #1E1E1E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10px; /* 136.364% */
+    margin: 40px 0px 0px -60px;
+}
+.banner_middle_lower_card .cards1 .cards5_name .card5_time{
+    margin-top: 15px;
+    color: #1E1E1E;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 225% */
+}
+.banner_middle_lower_card .cards1 .cards5_name .card5_time span {
+    color: orange;
+}
+.banner_middle_lower_card .cards1 .cards5_name .card5_time .tt {
+    margin-left: 30px;
+}
+.banner_middle_lower_card .cards1 .cards6_image {
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: red;
+    background: url("../assets/Images/Cards/Bonnie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.banner_middle_lower_card .cards1 .cards6_name {
+    color: #1E1E1E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10px; /* 136.364% */
+    margin: 40px 0px 0px -60px;
+}
+.banner_middle_lower_card .cards1 .cards6_name .card6_time{
+    margin-top: 15px;
+    color: #1E1E1E;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 225% */
+}
+.banner_middle_lower_card .cards1 .cards6_name .card6_time span {
+    color: orange;
+}
+.banner_middle_lower_card .cards1 .cards6_name .card6_time .tt {
+    margin-left: 30px;
+}
+
+/* Start Banner Middle Lower2 CSS */
+.banner_secetion_middle_lower_2 {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    background: #058B8C;
+}
+.page_witdh_middle_lower_2{
+    max-width: 1250px;
+    margin: auto;
+    padding: 50px;
+}
+.banner_middle_lower_2_content .para_emergency {
+    color: #FFF;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+.banner_middle_lower_2_content .para_number{
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.26px;
+    margin-top: 30px;
+}
+.banner_middle_lower_2_content .para_number .ff {
+    margin-right: 20px;
+}
 /* Start Footer CSS */
 footer{
     max-width: 1250px;
@@ -507,7 +762,11 @@ footer{
     font-style: normal;
     font-weight: 400;
     padding: 15px;
-    line-height: 30px; /* 150% */
+    line-height: 40px; /* 150% */
+}
+.coloumn2-a ul li span {
+    color: #1E1E1E;
+    font-weight: 600;
 }
 .coloumn2-b ul li {
     color: #8F8F8F;
@@ -516,7 +775,7 @@ footer{
     font-style: normal;
     font-weight: 400;
     padding: 15px;
-    line-height: 30px; /* 150% */
+    line-height: 40px; /* 150% */
 }
 
 .line {
